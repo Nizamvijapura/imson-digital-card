@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#071d49">
+<title>IMSON™ | Digital Business Card & Product Catalogue</title>
+<style>
+:root{--navy:#071d49;--blue:#0b2d68;--orange:#f47700;--light:#f5f7fb;--text:#15294d}
+*{box-sizing:border-box}body{margin:0;background:#e9edf4;color:var(--text);font-family:Arial,Helvetica,sans-serif}
+.wrap{max-width:480px;margin:auto;background:#fff;min-height:100vh;box-shadow:0 0 35px #0002}
+header{background:linear-gradient(145deg,#06183e,#0d3678);padding:22px 18px 28px;text-align:center}
+.logo{width:92%;max-width:390px;background:white;padding:11px;border-radius:14px}
+.company{color:#fff;font-weight:800;margin-top:10px;font-size:16px}
+.cert{color:#cbd8ee;font-size:11px;margin-top:4px}
+nav{display:flex;gap:8px;overflow:auto;padding:12px 14px;background:white;position:sticky;top:0;z-index:4;border-bottom:1px solid #e7ebf1}
+nav a{white-space:nowrap;text-decoration:none;padding:9px 13px;border-radius:20px;background:#f2f5f9;color:#17315d;font-size:12px;font-weight:800}
+nav a:first-child{background:var(--navy);color:#fff}
+.hero{padding:22px 20px 10px}
+.eyebrow{color:var(--orange);font-size:11px;font-weight:900;letter-spacing:1.5px}
+h1{font-size:29px;line-height:1.08;margin:8px 0}
+p{color:#68758a;font-size:13px;line-height:1.55}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:18px 0}
+.btn{display:block;text-align:center;text-decoration:none;padding:13px 8px;border-radius:11px;font-size:12px;font-weight:800;border:1px solid #e1e6ee;color:var(--navy)}
+.primary{background:var(--navy);color:#fff;border-color:var(--navy)}.orange{background:var(--orange);color:#fff;border-color:var(--orange)}
+.section{padding:20px;border-top:8px solid var(--light)}.section h2{margin:0 0 5px;font-size:21px}
+.catalogue-card{border:1px solid #e1e6ee;border-radius:15px;overflow:hidden;margin-top:14px;background:#fff;box-shadow:0 5px 18px #071d4910}
+.catalogue-card img{width:100%;display:block}
+.catalogue-card .cap{padding:13px 14px;font-size:12px;font-weight:800}
+.info{background:#f7f9fc;border-radius:15px;padding:15px;margin-top:15px}
+.row{padding:10px 0;border-bottom:1px solid #e5e9ef;font-size:13px;line-height:1.45}.row:last-child{border:0}
+.badges{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:14px}
+.badge{background:#fff;border:1px solid #e2e7ef;border-radius:12px;text-align:center;padding:12px 5px;font-size:10px;font-weight:800}
+footer{background:var(--navy);color:#fff;text-align:center;padding:22px 18px;font-size:11px;line-height:1.6}
+.share{width:100%;border:0;background:var(--orange);color:white;padding:14px;border-radius:11px;font-weight:900;margin-top:10px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<img class="logo" src="imson-logo.png" alt="IMSON™ Toner Cartridges">
+<div class="company">Wiztech Innovation LLP</div>
+<div class="cert">ISO 9001:2015 Certified Company</div>
+</header>
+
+<nav>
+<a href="#home">Home</a><a href="#products">Products</a><a href="#catalogue">Catalogue</a><a href="#contact">Contact</a>
+</nav>
+
+<section class="hero" id="home">
+<div class="eyebrow">IMSON™ • INFINITE INNOVATION</div>
+<h1>Professional Printing.<br>Smarter Choice.</h1>
+<p>IMSON toner cartridges for reliable, sharp and cost-effective printing across compatible HP & Canon laser printers.</p>
+<div class="grid">
+<a class="btn primary" href="tel:+919727908889">📞 Call Now</a>
+<a class="btn orange" href="https://wa.me/919727908889?text=Hello%20IMSON%2C%20I%20want%20to%20know%20about%20your%20products.">💬 WhatsApp</a>
+<a class="btn" href="https://www.imson.co.in" target="_blank">🌐 imson.co.in</a>
+<a class="btn" href="https://www.google.com/maps/search/?api=1&query=7%2C8%2C9%20Mahavir%20Complex%2C%20Girdharnagar%2C%20Himatnagar%2C%20Gujarat%20383001" target="_blank">📍 Location</a>
+</div>
+<button class="share" onclick="shareCard()">↗ Share Digital Card</button>
+</section>
+
+<section class="section" id="products">
+<h2>IMSON Product Range</h2>
+<p>Explore our toner cartridge, OPC drum and laser printer parts range.</p>
+<div class="badges">
+<div class="badge">12A<br>1,800–2,000 Pages*</div>
+<div class="badge">88A<br>1,300–1,500 Pages*</div>
+<div class="badge">278<br>2,100 Pages*</div>
+<div class="badge">925/285<br>1,600–1,800 Pages*</div>
+<div class="badge">337<br>Compatible Range</div>
+<div class="badge">OPC DRUM<br>12A / 88A</div>
+</div>
+</section>
+
+<section class="section" id="catalogue">
+<h2>Product Catalogue</h2>
+<p>Tap the catalogue images to view the full-size product range.</p>
+<div class="catalogue-card">
+<a href="catalogue-toner-opc.png" target="_blank"><img src="catalogue-toner-opc.png" alt="IMSON Toner and OPC Drum Catalogue"></a>
+<div class="cap">IMSON™ Toner Cartridge & OPC Drum Range</div>
+</div>
+<div class="catalogue-card">
+<a href="catalogue-parts.png" target="_blank"><img src="catalogue-parts.png" alt="IMSON Toner and Printer Parts Catalogue"></a>
+<div class="cap">IMSON™ Toner Cartridges & Laser Printer Parts</div>
+</div>
+</section>
+
+<section class="section" id="contact">
+<h2>Contact IMSON</h2>
+<div class="info">
+<div class="row"><b>Company</b><br>Wiztech Innovation LLP</div>
+<div class="row"><b>Mobile / WhatsApp</b><br>+91 97279 08889</div>
+<div class="row"><b>Website</b><br>www.imson.co.in</div>
+<div class="row"><b>Address</b><br>7,8,9, Mahavir Complex, Near S.K.MRI, Below Meldikrupa GAS Agency, Girdharnagar, Himatnagar-383001, Dist. Sabarkantha, Gujarat, INDIA.</div>
+</div>
+<div class="grid">
+<a class="btn orange" href="https://wa.me/919727908889?text=Hello%20IMSON%2C%20please%20send%20me%20your%20product%20details.">Order / Enquiry</a>
+<a class="btn primary" href="https://www.imson.co.in" target="_blank">Visit Website</a>
+</div>
+</section>
+
+<footer>
+<b>IMSON™ — TONER CARTRIDGES</b><br>
+Infinite Innovation<br>
+Marketed by Wiztech Innovation LLP<br>
+ISO 9001:2015 Certified Company
+</footer>
+</div>
+<script>
+async function shareCard(){
+ if(navigator.share){try{await navigator.share({title:"IMSON™ Digital Business Card",text:"IMSON™ Toner Cartridges | Product Catalogue",url:location.href})}catch(e){}}
+ else{try{await navigator.clipboard.writeText(location.href);alert("Card link copied.")}catch(e){alert("Please copy the page URL to share.")}}
+}
+</script>
+</body>
+</html>
